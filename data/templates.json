@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Genel Özet",
+    "description": "Verilen metnin özetini çıkartır.",
+    "template_text": "Aşağıdaki metni kapsamlı bir şekilde özetleyin.\n\nÖzet yazarken dikkat edilecek noktalar:\n- Ana fikirleri koruyun\n- Gereksiz detayları çıkarın\n- Kronolojik sırayı koruyun\n- Profesyonel bir dil kullanın"
+  },
+  {
+    "name": "Teknik Analiz",
+    "description": "Teknik içerikli metinleri analiz eder",
+    "template_text": "Metni teknik açıdan analiz edin.\n\nRapor Yapısı:\n1. Teknik Özet\n2. Kullanılan Teknolojiler\n3. Teknik Terimler Sözlüğü\n4. Uygulama Adımları\n5. Teknik Gereksinimler\n6. Potansiyel Sorunlar ve Çözüm Önerileri"
+  },
+  {
+    "name": "Fine-Tune Soru Cevap",
+    "description": "Fine-tune yapabilmek için hazır soru cevap üretir.",
+    "template_text": "\"\"\"Aşağıdaki metni analiz et, (fine tunning metoduyla) eğiteceğimiz yapay zekamızı en iyi şekilde eğitebilecek şekilde, **özetlenmiş** olarak, **tekrarsız** bir şekilde **farklı** soru-cevap çiftleri üret.\n\n    **Önemli Not:** Aynı soru-cevap çiftlerini tekrar etme!\n\n    JSON formatında çıktı üret:\n    {\n    \"soru-cevaplar\": [\n        {{\n        \"soru\": \"örnek soru\",\n        \"cevap\": \"örnek cevap\"\n        }}\n    ]\n    }\n\n{text}"
+  }
+]

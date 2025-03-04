@@ -1,0 +1,15 @@
+{
+    "openai": {
+        "model": "gpt-4"
+    },
+    "gemini": {
+        "model": "gemini-1.5-flash"
+    },
+    "claude": {
+        "model": "claude-3-sonnet-20240229"
+    },
+    "deepseek": {
+        "model": "deepseek-chat"
+    },
+    "default_ai": "Gemini"
+}
