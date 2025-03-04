@@ -1,0 +1,109 @@
+# AI Metin Analizcisi
+
+![version](https://img.shields.io/badge/version-1.0.0-blue)
+![python](https://img.shields.io/badge/python-3.8%2B-darkgreen)
+![license](https://img.shields.io/badge/license-MIT-green)
+
+Çoklu AI sağlayıcıları kullanarak dökümanları ve medya dosyalarını analiz eden güçlü ve kullanıcı dostu bir masaüstü uygulaması.
+
+![Ana Ekran Görüntüsü](docs/images/screenshot_main.png)
+
+## 🚀 Özellikler
+
+- **Çoklu AI Sağlayıcı Desteği**
+  - OpenAI (GPT-4, GPT-3.5-turbo)
+  - Google Gemini
+  - Anthropic Claude
+  - DeepSeek
+
+- **Geniş Dosya Format Desteği**
+  - Dokümanlar: PDF, DOCX, XLSX, TXT
+  - Web: HTML, XML, CSV, JSON
+  - Medya: PNG, JPG, JPEG
+  - Ses: MP3, WAV, M4A, FLAC 
+  - E-Kitap: EPUB
+
+- **Çeşitli Analiz Türleri**
+  - Özet
+  - Soru-Cevap
+  - Anahtar Noktalar
+  - Çeviri
+  - Analiz
+  - Teknik Analiz
+  - Özet Rapor
+  - Özel analiz türleri (kullanıcı tanımlı)
+
+- **Gelişmiş Dosya İşleme**
+  - Büyük dosyaları otomatik bölme
+  - Birden çok dosyayı toplu işleme
+  - Dosya parçalarının sonuçlarını birleştirme
+  - OCR (Optik Karakter Tanıma)
+  - Konuşma tanıma
+
+## 🛠️ Kurulum
+
+### Gereksinimler
+
+- Python 3.8 veya üzeri
+- Pip (Python paket yöneticisi)
+- Tesseract OCR (görüntülerden metin çıkarmak için)
+
+### Adım 1: Repoyu klonlayın
+
+```bash
+git clone https://github.com/kullaniciadi/ai-metin-analizcisi.git
+cd ai-metin-analizcisi
+Adım 2: Sanal ortam oluşturun (opsiyonel ama önerilir)
+bashCopypython -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+# macOS/Linux
+source venv/bin/activate
+Adım 3: Bağımlılıkları yükleyin
+bashCopypip install -r requirements.txt
+Adım 4: Tesseract OCR kurulumu
+
+Windows: Tesseract OCR Windows İndirme Bağlantısı
+macOS: brew install tesseract
+Linux: sudo apt-get install tesseract-ocr
+
+Adım 5: Çevre değişkenlerini ayarlayın
+.env.example dosyasını .env olarak yeniden adlandırın ve API anahtarlarınızı ekleyin:
+CopyOPENAI_API_KEY=sizin_openai_api_anahtariniz
+GEMINI_API_KEY=sizin_gemini_api_anahtariniz
+CLAUDE_API_KEY=sizin_claude_api_anahtariniz
+DEEPSEEK_API_KEY=sizin_deepseek_api_anahtariniz
+🚀 Kullanım
+Uygulamayı başlatmak için:
+bashCopypython main.py
+Temel Kullanım
+
+Dosya Seçimi: Dosya(ları) sürükleyin ya da tıklayarak seçin
+AI Model Seçimi: Kullanmak istediğiniz AI sağlayıcıyı seçin
+Analiz Tipi Seçimi: Yapılacak analiz türünü seçin
+Analiz Et: Analiz butonuna tıklayın
+
+Gelişmiş Özellikler
+
+Özel Analiz Türleri: Özel analiz türleri oluşturabilir ve yönetebilirsiniz
+Analiz Geçmişi: Önceki analizlerinize erişebilirsiniz
+Şablon Yöneticisi: Yeni prompt şablonları oluşturabilirsiniz
+Ayarlar: Uygulama ayarlarını ve API yapılandırmalarını düzenleyebilirsiniz
+
+📝 Katkıda Bulunma
+Katkılarınızı memnuniyetle karşılıyoruz! Detaylar için CONTRIBUTING.md dosyasına bakın.
+📄 Lisans
+Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için LICENSE dosyasına bakın.
+🙏 Teşekkürler
+Bu projede kullanılan açık kaynak kütüphaneleri ve API sağlayıcılarına teşekkürler:
+
+CustomTkinter
+PyPDF2
+python-docx
+pandas
+OpenAI
+Google Gemini
+Anthropic Claude
+DeepSeek

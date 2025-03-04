@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Environment Variables
+.env
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+temp/
+data/*.json
+!data/templates.json
+!data/settings.json
+!data/theme_settings.json
+
+# User generated content
+*.pdf
+*.docx
+*.xlsx
+*.csv
+*.txt
+*.json
+*.png
+*.jpg
+*.jpeg
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.html
+*.xml
+*.epub
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
